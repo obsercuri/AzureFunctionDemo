@@ -1,6 +1,6 @@
 module.exports = function (context, req) {
     
-    var bookmark = context.bindings.bookmark
+    const bookmark = context.bindings.bookmark
     
     if(bookmark){
             context.res = {
